@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC740CB51E354DC200EA933C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CB41E354DC200EA933C /* AppDelegate.swift */; };
+		DC740CB71E354DC200EA933C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CB61E354DC200EA933C /* ViewController.swift */; };
+		DC740CBA1E354DC200EA933C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC740CB81E354DC200EA933C /* Main.storyboard */; };
+		DC740CBD1E354DC200EA933C /* semestralka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC740CBB1E354DC200EA933C /* semestralka.xcdatamodeld */; };
+		DC740CBF1E354DC200EA933C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC740CBE1E354DC200EA933C /* Assets.xcassets */; };
+		DC740CC21E354DC200EA933C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC740CC01E354DC200EA933C /* LaunchScreen.storyboard */; };
+		DC740CCD1E354DC300EA933C /* semestralkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CCC1E354DC300EA933C /* semestralkaTests.swift */; };
+		DC740CD81E354DC300EA933C /* semestralkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CD71E354DC300EA933C /* semestralkaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC740CC91E354DC200EA933C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC740CA91E354DC200EA933C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC740CB01E354DC200EA933C;
+			remoteInfo = semestralka;
+		};
+		DC740CD41E354DC300EA933C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC740CA91E354DC200EA933C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC740CB01E354DC200EA933C;
+			remoteInfo = semestralka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC740CB11E354DC200EA933C /* semestralka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = semestralka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC740CB41E354DC200EA933C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC740CB61E354DC200EA933C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC740CB91E354DC200EA933C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC740CBC1E354DC200EA933C /* semestralka.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = semestralka.xcdatamodel; sourceTree = "<group>"; };
+		DC740CBE1E354DC200EA933C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC740CC11E354DC200EA933C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC740CC31E354DC200EA933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC740CC81E354DC200EA933C /* semestralkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = semestralkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC740CCC1E354DC300EA933C /* semestralkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semestralkaTests.swift; sourceTree = "<group>"; };
+		DC740CCE1E354DC300EA933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC740CD31E354DC300EA933C /* semestralkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = semestralkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC740CD71E354DC300EA933C /* semestralkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = semestralkaUITests.swift; sourceTree = "<group>"; };
+		DC740CD91E354DC300EA933C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC740CAE1E354DC200EA933C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CC51E354DC200EA933C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CD01E354DC300EA933C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC740CA81E354DC200EA933C = {
+			isa = PBXGroup;
+			children = (
+				DC740CB31E354DC200EA933C /* semestralka */,
+				DC740CCB1E354DC300EA933C /* semestralkaTests */,
+				DC740CD61E354DC300EA933C /* semestralkaUITests */,
+				DC740CB21E354DC200EA933C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC740CB21E354DC200EA933C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC740CB11E354DC200EA933C /* semestralka.app */,
+				DC740CC81E354DC200EA933C /* semestralkaTests.xctest */,
+				DC740CD31E354DC300EA933C /* semestralkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC740CB31E354DC200EA933C /* semestralka */ = {
+			isa = PBXGroup;
+			children = (
+				DC740CB41E354DC200EA933C /* AppDelegate.swift */,
+				DC740CB61E354DC200EA933C /* ViewController.swift */,
+				DC740CB81E354DC200EA933C /* Main.storyboard */,
+				DC740CBE1E354DC200EA933C /* Assets.xcassets */,
+				DC740CC01E354DC200EA933C /* LaunchScreen.storyboard */,
+				DC740CC31E354DC200EA933C /* Info.plist */,
+				DC740CBB1E354DC200EA933C /* semestralka.xcdatamodeld */,
+			);
+			path = semestralka;
+			sourceTree = "<group>";
+		};
+		DC740CCB1E354DC300EA933C /* semestralkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC740CCC1E354DC300EA933C /* semestralkaTests.swift */,
+				DC740CCE1E354DC300EA933C /* Info.plist */,
+			);
+			path = semestralkaTests;
+			sourceTree = "<group>";
+		};
+		DC740CD61E354DC300EA933C /* semestralkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC740CD71E354DC300EA933C /* semestralkaUITests.swift */,
+				DC740CD91E354DC300EA933C /* Info.plist */,
+			);
+			path = semestralkaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC740CB01E354DC200EA933C /* semestralka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC740CDC1E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralka" */;
+			buildPhases = (
+				DC740CAD1E354DC200EA933C /* Sources */,
+				DC740CAE1E354DC200EA933C /* Frameworks */,
+				DC740CAF1E354DC200EA933C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = semestralka;
+			productName = semestralka;
+			productReference = DC740CB11E354DC200EA933C /* semestralka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC740CC71E354DC200EA933C /* semestralkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC740CDF1E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralkaTests" */;
+			buildPhases = (
+				DC740CC41E354DC200EA933C /* Sources */,
+				DC740CC51E354DC200EA933C /* Frameworks */,
+				DC740CC61E354DC200EA933C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC740CCA1E354DC200EA933C /* PBXTargetDependency */,
+			);
+			name = semestralkaTests;
+			productName = semestralkaTests;
+			productReference = DC740CC81E354DC200EA933C /* semestralkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC740CD21E354DC300EA933C /* semestralkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC740CE21E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralkaUITests" */;
+			buildPhases = (
+				DC740CCF1E354DC300EA933C /* Sources */,
+				DC740CD01E354DC300EA933C /* Frameworks */,
+				DC740CD11E354DC300EA933C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC740CD51E354DC300EA933C /* PBXTargetDependency */,
+			);
+			name = semestralkaUITests;
+			productName = semestralkaUITests;
+			productReference = DC740CD31E354DC300EA933C /* semestralkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC740CA91E354DC200EA933C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Filip Sakala";
+				TargetAttributes = {
+					DC740CB01E354DC200EA933C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					DC740CC71E354DC200EA933C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC740CB01E354DC200EA933C;
+					};
+					DC740CD21E354DC300EA933C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC740CB01E354DC200EA933C;
+					};
+				};
+			};
+			buildConfigurationList = DC740CAC1E354DC200EA933C /* Build configuration list for PBXProject "semestralka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC740CA81E354DC200EA933C;
+			productRefGroup = DC740CB21E354DC200EA933C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC740CB01E354DC200EA933C /* semestralka */,
+				DC740CC71E354DC200EA933C /* semestralkaTests */,
+				DC740CD21E354DC300EA933C /* semestralkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC740CAF1E354DC200EA933C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC740CC21E354DC200EA933C /* LaunchScreen.storyboard in Resources */,
+				DC740CBF1E354DC200EA933C /* Assets.xcassets in Resources */,
+				DC740CBA1E354DC200EA933C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CC61E354DC200EA933C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CD11E354DC300EA933C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC740CAD1E354DC200EA933C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC740CB71E354DC200EA933C /* ViewController.swift in Sources */,
+				DC740CBD1E354DC200EA933C /* semestralka.xcdatamodeld in Sources */,
+				DC740CB51E354DC200EA933C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CC41E354DC200EA933C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC740CCD1E354DC300EA933C /* semestralkaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC740CCF1E354DC300EA933C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC740CD81E354DC300EA933C /* semestralkaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC740CCA1E354DC200EA933C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC740CB01E354DC200EA933C /* semestralka */;
+			targetProxy = DC740CC91E354DC200EA933C /* PBXContainerItemProxy */;
+		};
+		DC740CD51E354DC300EA933C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC740CB01E354DC200EA933C /* semestralka */;
+			targetProxy = DC740CD41E354DC300EA933C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC740CB81E354DC200EA933C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC740CB91E354DC200EA933C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC740CC01E354DC200EA933C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC740CC11E354DC200EA933C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC740CDA1E354DC300EA933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC740CDB1E354DC300EA933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC740CDD1E354DC300EA933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = semestralka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC740CDE1E354DC300EA933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = semestralka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DC740CE01E354DC300EA933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = semestralkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semestralka.app/semestralka";
+			};
+			name = Debug;
+		};
+		DC740CE11E354DC300EA933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = semestralkaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/semestralka.app/semestralka";
+			};
+			name = Release;
+		};
+		DC740CE31E354DC300EA933C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = semestralkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = semestralka;
+			};
+			name = Debug;
+		};
+		DC740CE41E354DC300EA933C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = semestralkaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cvut.fit.semestralkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = semestralka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC740CAC1E354DC200EA933C /* Build configuration list for PBXProject "semestralka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC740CDA1E354DC300EA933C /* Debug */,
+				DC740CDB1E354DC300EA933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC740CDC1E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC740CDD1E354DC300EA933C /* Debug */,
+				DC740CDE1E354DC300EA933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC740CDF1E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC740CE01E354DC300EA933C /* Debug */,
+				DC740CE11E354DC300EA933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC740CE21E354DC300EA933C /* Build configuration list for PBXNativeTarget "semestralkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC740CE31E354DC300EA933C /* Debug */,
+				DC740CE41E354DC300EA933C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC740CBB1E354DC200EA933C /* semestralka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC740CBC1E354DC200EA933C /* semestralka.xcdatamodel */,
+			);
+			currentVersion = DC740CBC1E354DC200EA933C /* semestralka.xcdatamodel */;
+			path = semestralka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC740CA91E354DC200EA933C /* Project object */;
+}
