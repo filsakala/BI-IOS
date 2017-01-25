@@ -4,20 +4,24 @@
         <attribute name="distance" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="rewardXP" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
         <attribute name="toWalk" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="from" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" syncable="YES"/>
-        <relationship name="to" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" syncable="YES"/>
+        <relationship name="from" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" inverseName="inPath" inverseEntity="Place2" syncable="YES"/>
+        <relationship name="player" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Player2" inverseName="onPath" inverseEntity="Player2" syncable="YES"/>
+        <relationship name="to" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" inverseName="inPathTo" inverseEntity="Place2" syncable="YES"/>
     </entity>
     <entity name="Place2" representedClassName="Place2" syncable="YES" codeGenerationType="class">
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="actualPlaceOfPlayer" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Player2" inverseName="actualPlace" inverseEntity="Player2" syncable="YES"/>
+        <relationship name="inPath" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Path2" inverseName="from" inverseEntity="Path2" syncable="YES"/>
+        <relationship name="inPathTo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Path2" inverseName="to" inverseEntity="Path2" syncable="YES"/>
     </entity>
     <entity name="Player2" representedClassName="Player2" syncable="YES" codeGenerationType="class">
         <attribute name="xp" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
-        <relationship name="actualPlace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" syncable="YES"/>
-        <relationship name="onPath" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Path2" syncable="YES"/>
+        <relationship name="actualPlace" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Place2" inverseName="actualPlaceOfPlayer" inverseEntity="Place2" syncable="YES"/>
+        <relationship name="onPath" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Path2" inverseName="player" inverseEntity="Path2" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Path2" positionX="70" positionY="108" width="128" height="120"/>
-        <element name="Place2" positionX="70" positionY="-4" width="128" height="60"/>
+        <element name="Path2" positionX="70" positionY="108" width="128" height="135"/>
+        <element name="Place2" positionX="70" positionY="-4" width="128" height="105"/>
         <element name="Player2" positionX="-119" positionY="-12" width="128" height="90"/>
     </elements>
 </model>

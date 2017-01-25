@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  semestralka
 //
-//  Created by Filip Sakala on 23.1.17.
+//  Created by Filip Sakala.
 //  Copyright © 2017 Filip Sakala. All rights reserved.
 //
 
@@ -13,25 +13,23 @@ class HomeViewController: UIViewController {
     var days:[String] = []
     var stepsTaken:[Int] = []
     @IBOutlet weak var stepCount: UILabel!
-    var prevStepCount = -1
     @IBOutlet weak var actualLevel: UILabel!
     
     let activityManager = CMMotionActivityManager()
     let pedoMeter = CMPedometer()
-    
-    let model = Model()
+    let model = Model.instance // Singleton
+    var prevStepCount = -1 // Step count from previous update
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Pedometer
         var cal = Calendar.current
         var comps = cal.dateComponents([.year, .month, .day, .hour, .minute, .second], from: Date())
         comps.hour = 0
         comps.minute = 0
         comps.second = 0
-        let timeZone = TimeZone.current
-        cal.timeZone = timeZone
-        
+        cal.timeZone = TimeZone.current
         let midnightOfToday = cal.date(from: comps)!
         
         // Run only in Physical Device, iOS
@@ -44,10 +42,12 @@ class HomeViewController: UIViewController {
                         if let v = self.view as? HomeView {
                             v.updateStepCount(stepCount: Int(data!.numberOfSteps))
                             
-                            // If you can get the difference, you can add players's XP and lower distance in path (toWalk) if exists
+                            // Get the step difference, add players's XP and lower distance in path (toWalk) if exists
                             if(self.prevStepCount != -1) { // you can count the difference
-                                self.model.addXPFromSteps(steps: Int(data!.numberOfSteps) - self.prevStepCount)
+                                let diff = Int(data!.numberOfSteps) - self.prevStepCount
+                                self.model.addXPFromSteps(steps: diff)
                                 v.updateXP(actualXP: self.model.getXP(), nextLevelXP: self.model.getNextLevelXP())
+                                self.model.addWalkedSteps(steps: diff) // check walking paths
                             }
                             self.prevStepCount = Int(data!.numberOfSteps)
                             v.updateLevel(level: self.model.getLevel())
@@ -56,4 +56,6 @@ class HomeViewController: UIViewController {
                 })
             }
         }
-    }}
+    }
+
+}

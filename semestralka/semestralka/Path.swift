@@ -2,7 +2,7 @@
 //  Path.swift
 //  semestralka
 //
-//  Created by Filip Sakala on 24.1.17.
+//  Created by Filip Sakala.
 //  Copyright © 2017 Filip Sakala. All rights reserved.
 //
 
@@ -17,7 +17,7 @@ class Path {
     init(from: Place, to: Place){
         self.from = from
         self.to = to
-        reward = from.stepDistance(place: to)
+        reward = from.stepDistance(place: to) * 2
     }
     
     func stepsToWalk() -> Int {

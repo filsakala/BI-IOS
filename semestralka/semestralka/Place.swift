@@ -2,14 +2,15 @@
 //  Place.swift
 //  semestralka
 //
-//  Created by Filip Sakala on 24.1.17.
+//  Created by Filip Sakala.
 //  Copyright © 2017 Filip Sakala. All rights reserved.
 //
 
 import Foundation
 
 class Place {
-    var name: String, x: Int, y: Int
+    var name: String
+    var x: Int, y: Int
     
     init(name: String, x: Int, y: Int){
         self.name = name

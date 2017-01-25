@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC1903621E39255900316EA7 /* RewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1903611E39255800316EA7 /* RewardView.swift */; };
 		DC740CB51E354DC200EA933C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CB41E354DC200EA933C /* AppDelegate.swift */; };
 		DC740CB71E354DC200EA933C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC740CB61E354DC200EA933C /* ViewController.swift */; };
 		DC740CBA1E354DC200EA933C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC740CB81E354DC200EA933C /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC1903611E39255800316EA7 /* RewardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardView.swift; sourceTree = "<group>"; };
 		DC740CB11E354DC200EA933C /* semestralka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = semestralka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC740CB41E354DC200EA933C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC740CB61E354DC200EA933C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				DC740CEB1E36243600EA933C /* HomeViewController.swift */,
 				DCCA9E201E375A990029AB5C /* MapView.swift */,
 				DCCA9E1E1E375A740029AB5C /* MapViewController.swift */,
+				DC1903611E39255800316EA7 /* RewardView.swift */,
 				DC740CB81E354DC200EA933C /* Main.storyboard */,
 				DC740CBE1E354DC200EA933C /* Assets.xcassets */,
 				DCCA9E221E375AAD0029AB5C /* Supporting classes */,
@@ -310,6 +313,7 @@
 				DCCA9E1D1E375A040029AB5C /* Place.swift in Sources */,
 				DCCA9E1F1E375A740029AB5C /* MapViewController.swift in Sources */,
 				DC740CEE1E365BEE00EA933C /* Model.swift in Sources */,
+				DC1903621E39255900316EA7 /* RewardView.swift in Sources */,
 				DC740D1F1E36903700EA933C /* User.swift in Sources */,
 				DCCA9E211E375A990029AB5C /* MapView.swift in Sources */,
 				DC740CBD1E354DC200EA933C /* semestralka.xcdatamodeld in Sources */,
